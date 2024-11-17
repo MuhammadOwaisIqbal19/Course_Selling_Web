@@ -6,7 +6,7 @@ from django.contrib.auth.decorators import login_required
 # from users.forms import LocationForm
 # from django.contrib import messages
 # from .filters import ListingFilter
-from imp import reload
+from importlib import reload
 from django.http import JsonResponse
 # from course_details.models import Course
 
